@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carrito - TITANX</title>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body onload="cargarCarrito()">
+
+<header>
+<div class="logo">TITANX</div>
+
+<nav>
+<a href="index.html">← Seguir Comprando</a>
+</nav>
+
+</header>
+
+<section class="banner">
+<h1>🛒 Carrito de Compras</h1>
+<p>Revisa tus productos antes de finalizar.</p>
+</section>
+
+<div class="cart">
+
+<div id="carrito"></div>
+
+<div class="total">
+Total: $<span id="total">0</span>
+</div>
+
+<br>
+
+<button onclick="vaciar()">
+Vaciar Carrito
+</button>
+
+<button onclick="finalizar()">
+Finalizar Compra
+</button>
+
+</div>
+
+<footer>
+<p>WhatsApp: 7841260112</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
